@@ -1,0 +1,25 @@
+// Common use file
+@use "variable";
+//files of pages and sections
+@use "hero.scss";
+@use "about.scss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chat {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  z-index: 2;
+  img{
+    height: auto;
+    width: 70px;
+  }
+}
+
